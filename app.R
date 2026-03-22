@@ -138,13 +138,15 @@ ui <- page_sidebar(
     card(
       card_header("About"),
       helpText(
-        "This app shows a subset of currently active residential building permits in Austin, Texas.",
+        "Disclaimer:",
+        br(),
+        "This is a personal project and not affiliated with the City of Austin. No guarantees are made about the accuracy of the data displayed in the app.",
         br(),
         " ",
         br(),
         "Instructions:",
         br(),
-        "Use the draw controls (free draw, rectangle, or circle) on the map to select a custom area and click on the Analyze Selected Area button to filter the summary statistics.",
+        "This app shows a subset of currently active residential building permits in Austin, Texas. Use the draw controls (free draw, rectangle, or circle) on the map to select a custom area and click on the Analyze Selected Area button to filter the summary statistics.",
         br(),
         " ",
         br(),
